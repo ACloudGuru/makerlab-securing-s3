@@ -6,4 +6,4 @@ categories: mood
 ---
 I am just the Cuteist !
 
-![Who me ?]({{ "/assets/MarieCat.png" | absolute_url }})
+![Who me ?]({{ "/assets/MarieCat.png"  }})

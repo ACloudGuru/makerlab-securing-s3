@@ -6,4 +6,4 @@ categories: grammar
 ---
 There is Right and Wrong
 
-![Who me ?]({{ "/assets/Aristocraticcat.jpg" | absolute_url }})
+![Who me ?]({{ "/assets/Aristocraticcat.jpg"  }})

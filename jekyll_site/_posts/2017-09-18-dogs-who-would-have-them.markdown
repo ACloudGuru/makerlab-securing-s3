@@ -6,9 +6,9 @@ categories: inferior
 ---
 Quite inexcusable behaviour !
 
-![Who me ?]({{ "/assets/Cat-in-Dog.jpg" | absolute_url }})
+![Who me ?]({{ "/assets/Cat-in-Dog.jpg"  }})
 
 
 Problem Solved
 
-![Who me ?]({{ "/assets/Nasty-Dogs.jpg" | absolute_url }})
+![Who me ?]({{ "/assets/Nasty-Dogs.jpg"  }})
