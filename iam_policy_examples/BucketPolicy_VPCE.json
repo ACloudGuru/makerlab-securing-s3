@@ -1,0 +1,19 @@
+{
+  "Version": "2012-10-17",
+  "Id": "BucketPolicyVPCE",
+  "Statement": [
+     {
+        "Sid": "Access-to-specific-VPCE-only",
+        "Action": "s3:*",
+        "Effect": "Deny",
+        "Resource": ["arn:aws:s3:::catgurublog"],
+        "Condition": {
+          "StringNotEquals": {
+             "aws:sourceVpce": "vpce-1a2b3c4d"
+          }
+        },
+        "Principal": "*"
+      }
+   ]
+}
+        
