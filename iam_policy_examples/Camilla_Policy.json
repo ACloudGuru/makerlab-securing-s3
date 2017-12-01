@@ -1,0 +1,18 @@
+{
+   "Version":"2012-10-17",
+   "Statement": [
+      {
+         "Sid": "AllowAllS3ActonsInUserFolder",
+         "Action": ["s3:*"],
+         "Effect": "Allow",
+         "Resource": ["arn:aws:s3:::catgurublog/${aws:username}/*"]
+      },
+      {
+         "Sid": "AllowJPGAccess",
+         "Action": ["s3:*"],
+         "Effect": "Allow",
+         "Resource": ["arn:aws:s3:::catgurublog/*.jpg"]
+     
+      }
+   ]
+}
