@@ -19,10 +19,10 @@
 				"SNS:Publish",			
 				"SNS:Receive"
 			],
-			"Resource": "arn:aws:sns:*:catguru",
+			"Resource": "arn:aws:sns:*:*:catguru",
 			"Condition": {
 				"ArnLike": {
-					"aws:SourceArn": "arn:aws:s3:*:catgurublog"
+					"aws:SourceArn": "arn:aws:s3:::catgurublog"
 				}
 			}
 		}
